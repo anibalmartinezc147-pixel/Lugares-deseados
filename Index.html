@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lugares deseados</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f2f2f2;
+            color: #222;
+        }
+        header {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 30px 15px;
+        }
+        h1 {
+            margin: 0;
+            font-size: 35px;
+        }
+        .botones {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin: 30px 0;
+            flex-wrap: wrap;
+        }
+        .botones a {
+            text-decoration: none;
+            background: #333;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 10px;
+            font-size: 18px;
+        }
+        .seccion {
+            max-width: 900px;
+            margin: 100px auto;
+            padding: 30px;
+            background: white;
+            border-radius: 15px;
+            text-align: center;
+        }
+        .seccion h2 {
+            font-size: 30px;
+        }
+        .seccion p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .fotos {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+        .fotos img {
+            width: 250px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Lugares deseados</h1>
+        <div class="botones">
+            <a href="#brazil">Brazil</a>
+            <a href="#china">China</a>
+            <a href="#peru">Perú</a>
+        </div>
+    </header>
+    <section id="brazil" class="seccion">
+        <h2>🇧🇷 Brazil</h2>
+        <p>
+            Brazil es un país de Sudamérica conocido por sus hermosas
+            playas, paisajes naturales, ciudades y su gran diversidad cultural.
+        </p>
+        <h3>Lugares para visitar</h3>
+        <div class="fotos">
+            <img src="https://images.unsplash.com/photo-1483729558449-99ef09a8c325?auto=format&fit=crop&w=600&q=80">
+            <img src="https://images.unsplash.com/photo-1516306580123-e6e52b1b7b5f?auto=format&fit=crop&w=600&q=80">
+            <img src="https://images.unsplash.com/photo-1544986581-efac024faf62?auto=format&fit=crop&w=600&q=80">
+        </div>
+    </section>
+    <section id="china" class="seccion">
+        <h2>🇨🇳 China</h2>
+        <p>
+            China es un país de Asia con una historia milenaria.
+            Cuenta con grandes ciudades, monumentos históricos y paisajes
+            naturales impresionantes.
+        </p>
+        <h3>Lugares para visitar</h3>
+        <div class="fotos">
+            <img src="https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=600&q=80">
+            <img src="https://images.unsplash.com/photo-1537531383496-f4749b4d2b5e?auto=format&fit=crop&w=600&q=80">
+            <img src="https://images.unsplash.com/photo-1548919973-5cef591cdbc9?auto=format&fit=crop&w=600&q=80">
+        </div>
+    </section>
+    <section id="peru" class="seccion">
+        <h2>🇵🇪 Perú</h2>
+        <p>
+            Perú es un país de Sudamérica famoso por su historia,
+            cultura, gastronomía y lugares arqueológicos como Machu Picchu.
+        </p>
+        <h3>Lugares para visitar</h3>
+        <div class="fotos">
+            <img src="https://images.unsplash.com/photo-1526392060635-9d6019884377?auto=format&fit=crop&w=600&q=80">
+            <img src="https://images.unsplash.com/photo-1531968455001-5c5272a41129?auto=format&fit=crop&w=600&q=80">
+            <img src="https://images.unsplash.com/photo-1587595431973-160d0d94add1?auto=format&fit=crop&w=600&q=80">
+        </div>
+    </section>
+</body>
+</html>
